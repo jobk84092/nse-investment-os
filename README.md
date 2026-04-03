@@ -73,7 +73,7 @@ cp data/manual/examples/simplywallst_watchlist.csv.example data/manual/simplywal
 
 If you already maintain real files locally, keep using them—Git will not track those paths once ignored.
 
-Edit `data/manual/approved_universe.csv` and the files above for your tickers. Then:
+Edit `data/manual/approved_universe.csv` and the files above for your tickers. In **`config/settings.json`**, replace **`your@email.com`** with your real address for alerts and the email digest. Then:
 
 ```bash
 python scripts/run_all.py
