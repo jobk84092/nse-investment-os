@@ -26,7 +26,7 @@
     "generate_email_summary": true,
     "generate_desktop_alert": true,
     "generate_calendar_ics": true,
-    "recipient_email": "jobkimani@gmail.com"
+    "recipient_email": "your@email.com"
   },
   "nse_sources": {
     "listed_announcements_url": "https://www.nse.co.ke/listed-company-announcements/",
@@ -82,8 +82,8 @@
       "credentials_path": "credentials.json",
       "token_path": "gmail_send_token.json"
     },
-    "to": "jobkimani@gmail.com",
-    "from_address": "jobkimani@gmail.com",
+    "to": "your@email.com",
+    "from_address": "your@email.com",
     "subject_template": "NSE Investment OS — {date}",
     "smtp_host": "smtp.gmail.com",
     "smtp_port": 587,
