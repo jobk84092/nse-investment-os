@@ -1,0 +1,21 @@
+ticker,security_name,sector,is_active,preferred_bucket,manual_quality,manual_value,manual_capital_allocation,manual_balance_sheet,manual_dividend,news_penalty,watch_notes
+SCOM,Safaricom,Telecom,1,core,8.5,6.5,8.0,7.5,7.0,0.0,Dominant telecom franchise
+EQT,Equity Group,Banking,1,core,8.2,7.2,8.0,7.4,6.8,0.0,Regional bank compounder
+NCBA,NCBA Group,Banking,1,core,8.0,7.0,7.5,7.5,6.6,0.0,Quality bank exposure
+COOP,Co-operative Bank,Banking,1,core,7.8,7.5,7.4,7.6,7.5,0.0,Stable retail/commercial franchise
+KCB,KCB Group,Banking,1,core,8.0,7.1,7.3,7.2,6.7,0.0,Large bank and rerating potential
+ABSA,ABSA Bank Kenya,Banking,1,core,7.4,7.0,7.2,7.5,7.3,0.0,Dividend/valuation appeal
+JUB,Jubilee Holdings,Insurance,1,core,7.6,6.9,7.3,7.0,6.5,0.0,Insurance quality name
+KNRE,Kenya Re,Insurance,1,value,5.8,7.4,5.6,5.9,5.2,0.2,Only with margin of safety
+HFCK,HF Group,Banking,1,speculative,4.8,6.8,4.7,4.8,4.0,0.5,Turnaround/speculative
+KPLC,Kenya Power,Utilities,1,speculative,4.9,7.0,4.6,4.4,3.8,0.8,Event-driven and policy-sensitive
+CRWN,Crown Paints,Manufacturing,1,value,6.5,6.7,6.0,6.2,5.8,0.0,Smaller cyclical
+SASN,Sasini,Agriculture,1,value,5.9,6.8,5.8,5.9,5.7,0.0,Cyclical/agri
+BAT,BAT Kenya,Consumer,1,core,8.0,5.5,8.0,8.0,8.5,0.0,Defensive/dividend
+SCBK,Standard Chartered Kenya,Banking,1,core,8.2,6.2,8.1,8.0,8.2,0.0,Dividend-rich large bank
+IMH,I&M Holdings,Banking,1,core,8.1,6.8,7.9,7.8,6.2,0.0,Quality bank
+BKGR,BK Group,Banking,1,value,6.8,7.1,6.2,6.7,5.4,0.0,Regional value angle
+NMG,Nation Media,Media,1,speculative,4.9,6.2,4.8,5.2,5.1,0.3,Turnaround sensitivity
+GLD,New Gold ETF,Commodities,1,core,7.0,6.5,6.5,7.0,4.0,0.0,Gold exposure; tune scores to taste
+KAPC,Kapchorua Tea,Agriculture,1,value,6.0,6.5,6.0,6.0,5.5,0.0,Tea/agri; from live book
+UCHM,Uchumi Supermarket,Retail,1,speculative,3.5,5.0,3.0,3.0,2.0,0.5,High risk; held per AIB statement

@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.email_env
+.telegram_env
+output/
+data/raw/
+data/processed/
+downloads/
+token.json
+credentials.json
+gmail_send_token.json
+telegram_session.session
+telegram_session.session-journal
+.DS_Store
+nse_run.log
+
+# Personal portfolio / notes (use data/manual/examples/*.example as templates)
+data/manual/holdings.csv
+data/manual/monthly_budget.csv
+data/manual/market_commentary.csv
+data/manual/ndindi_tracker.csv
+data/manual/simplywallst_watchlist.csv
+data/manual/*.bak.*

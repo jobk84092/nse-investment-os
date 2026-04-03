@@ -1,0 +1,4 @@
+# Copy to .email_env (gitignored) and fill in your Gmail app password.
+# Google Account → Security → 2-Step Verification → App passwords.
+export NSE_INVEST_SMTP_USER="your@gmail.com"
+export NSE_INVEST_SMTP_PASSWORD="your-16-char-app-password"

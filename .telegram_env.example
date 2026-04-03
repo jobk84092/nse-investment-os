@@ -1,0 +1,6 @@
+# Optional — Telethon works WITHOUT this file (uses Telegram Desktop test api_id/hash from code).
+# Add your own id/hash only if my.telegram.org works for you or shared defaults misbehave.
+# export TELEGRAM_API_ID="12345678"
+# export TELEGRAM_API_HASH="your_api_hash_here"
+# export TELEGRAM_CHAT_FILTER="Abojani"
+# export TELEGRAM_MESSAGE_LIMIT="25"

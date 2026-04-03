@@ -1,0 +1,2 @@
+ticker,security_name,sector,quantity,avg_cost,current_price,thesis_bucket,notes
+EXAMPLE,EXAMPLE CO LTD,Banking,100,10.0,12.0,core,Replace with your positions — example only

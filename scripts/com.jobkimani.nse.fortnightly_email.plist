@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.jobkimani.nse.fortnightly_email</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/jobkimani/Library/CloudStorage/OneDrive-Personal/JOB/personal stuff/personal finance/stocks/20260402 stocks automation/nse_investment_os/scripts/run_and_email_fortnightly.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/jobkimani/Library/CloudStorage/OneDrive-Personal/JOB/personal stuff/personal finance/stocks/20260402 stocks automation/nse_investment_os</string>
+  <key>StandardOutPath</key>
+  <string>/Users/jobkimani/Library/Logs/nse_investment_os_fortnightly.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/jobkimani/Library/Logs/nse_investment_os_fortnightly.log</string>
+  <!-- ~Fortnightly: 08:00 on the 1st and 15th every month (local time) -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Day</key><integer>1</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Day</key><integer>15</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+  </array>
+</dict>
+</plist>

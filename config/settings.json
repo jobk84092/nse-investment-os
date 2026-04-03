@@ -1,0 +1,103 @@
+{
+  "investor_profile": {
+    "strategy": "balanced_towards_aggressive",
+    "average_monthly_stock_budget_kes": 20000,
+    "budget_note": "Budget fluctuates widely; use actual monthly budget file when available."
+  },
+  "allocation_policy": {
+    "core_compounders_pct": 60,
+    "value_opportunities_pct": 25,
+    "special_situations_pct": 15
+  },
+  "position_limits": {
+    "max_single_stock_pct": 15,
+    "max_single_sector_pct": 35,
+    "max_special_situations_pct": 15
+  },
+  "scoring_weights": {
+    "quality": 0.3,
+    "value": 0.25,
+    "dividend": 0.15,
+    "balance_sheet": 0.1,
+    "capital_allocation": 0.1,
+    "news_governance_adjustment": 0.1
+  },
+  "alerts": {
+    "generate_email_summary": true,
+    "generate_desktop_alert": true,
+    "generate_calendar_ics": true,
+    "recipient_email": "jobkimani@gmail.com"
+  },
+  "nse_sources": {
+    "listed_announcements_url": "https://www.nse.co.ke/listed-company-announcements/",
+    "corporate_actions_url": "https://www.nse.co.ke/corporate-actions/"
+  },
+  "guidance": {
+    "when_uncertain": "pause_new_buys",
+    "personal_comfort_note": ""
+  },
+  "telegram": {
+    "fetch_before_run": true,
+    "process_desktop_export_before_run": false,
+    "desktop_export_json": "data/raw/telegram_export/result.json",
+    "desktop_export_max_messages": 500,
+    "chat_filters": [
+      "AIB-AXYS Research Updates",
+      "Business Daily",
+      "The Trading Room",
+      "AIB-AXYS Research",
+      "The Kenyan Wallstreet",
+      "Kenyan Wall Street"
+    ],
+    "message_limit": 25,
+    "merge_into_market_commentary": true
+  },
+  "memo_playbook": {
+    "max_new_money_slots": 3
+  },
+  "memo_enrichment": {
+    "nse_memo_max_links_per_section": 12,
+    "max_items_per_rss_feed": 6,
+    "rss_feeds": [
+      {
+        "label": "Kenyan Wall Street",
+        "url": "https://kenyanwallstreet.com/feed",
+        "homepage_fallback": "https://kenyanwallstreet.com/"
+      }
+    ]
+  },
+  "aib_pdf_sync": {
+    "search_dir": "",
+    "filename_globs": [
+      "*PortfolioValuation*.pdf",
+      "*portfolio-valuation*.pdf",
+      "*PORTFOLIO*.pdf"
+    ],
+    "holdings_csv": "data/manual/holdings.csv"
+  },
+  "email_digest": {
+    "enabled": true,
+    "transport": "auto",
+    "gmail_api": {
+      "credentials_path": "credentials.json",
+      "token_path": "gmail_send_token.json"
+    },
+    "to": "jobkimani@gmail.com",
+    "from_address": "jobkimani@gmail.com",
+    "subject_template": "NSE Investment OS — {date}",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_use_tls": true,
+    "smtp_user_env": "NSE_INVEST_SMTP_USER",
+    "smtp_password_env": "NSE_INVEST_SMTP_PASSWORD",
+    "attach_alerts_email_summary": true,
+    "attachment_files": [
+      "monthly_investment_memo.md",
+      "portfolio_snapshot.csv",
+      "sector_snapshot.csv",
+      "top_ideas.csv",
+      "watchlist_rankings.csv",
+      "data/raw/telegram_for_commentary.csv"
+    ]
+  }
+}

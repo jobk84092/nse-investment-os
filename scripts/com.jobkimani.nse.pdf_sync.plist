@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.jobkimani.nse.pdf_sync</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/jobkimani/Library/CloudStorage/OneDrive-Personal/JOB/personal stuff/personal finance/stocks/20260402 stocks automation/nse_investment_os/.venv/bin/python</string>
+    <string>/Users/jobkimani/Library/CloudStorage/OneDrive-Personal/JOB/personal stuff/personal finance/stocks/20260402 stocks automation/nse_investment_os/scripts/sync_holdings_from_aib_pdf.py</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/jobkimani/Library/CloudStorage/OneDrive-Personal/JOB/personal stuff/personal finance/stocks/20260402 stocks automation/nse_investment_os</string>
+
+  <!-- Every 14 days (~1,209,600 seconds); adjust StartInterval if needed -->
+  <key>StartInterval</key>
+  <integer>1209600</integer>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/jobkimani/Library/Logs/nse_pdf_sync.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/jobkimani/Library/Logs/nse_pdf_sync.log</string>
+</dict>
+</plist>
